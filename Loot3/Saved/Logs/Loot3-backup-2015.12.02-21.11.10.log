@@ -1,0 +1,1053 @@
+﻿[2015.11.29-03.16.03:910][  0]Log file open, 11/28/15 22:16:03
+[2015.11.29-03.16.03:910][  0]LogInit:Display: Running engine for game: Loot3
+[2015.11.29-03.16.03:910][  0]LogPlatformFile: Not using cached read wrapper
+[2015.11.29-03.16.03:910][  0]LogInit:Display: RandInit(881158023) SRandInit(881158025).
+[2015.11.29-03.16.03:910][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.11.29-03.16.03:910][  0]LogStats: Stats thread started at 0.086427
+[2015.11.29-03.16.03:910][  0]LogInit: Version: 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2015.11.29-03.16.03:910][  0]LogInit: API Version: 2758231
+[2015.11.29-03.16.03:910][  0]LogInit: Compiled (64-bit): Nov  7 2015 05:13:45
+[2015.11.29-03.16.03:910][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2015.11.29-03.16.03:910][  0]LogInit: Build Configuration: Development
+[2015.11.29-03.16.03:910][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2015.11.29-03.16.03:910][  0]LogInit: Command line: 
+[2015.11.29-03.16.03:910][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2015.11.29-03.16.03:910][  0]LogInit: Rocket: 1
+[2015.11.29-03.16.03:918][  0]LogInit: Using libcurl 7.41.0
+[2015.11.29-03.16.03:918][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.29-03.16.03:918][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.29-03.16.03:918][  0]LogInit:  - other features:
+[2015.11.29-03.16.03:918][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.29-03.16.03:918][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.29-03.16.03:918][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.29-03.16.03:918][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.29-03.16.03:918][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.29-03.16.03:918][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.29-03.16.03:918][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.29-03.16.03:918][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.29-03.16.03:918][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.29-03.16.03:918][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.29-03.16.03:928][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.29-03.16.03:937][  0]LogInit: Object subsystem initialized
+[2015.11.29-03.16.03:940][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.29-03.16.03:940][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.29-03.16.03:950][  0]LogInit: Computer: UBERTOWER
+[2015.11.29-03.16.03:950][  0]LogInit: User: Silverthief
+[2015.11.29-03.16.03:950][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.11.29-03.16.03:950][  0]LogInit: High frequency timer resolution =3.417969 MHz
+[2015.11.29-03.16.03:950][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2015.11.29-03.16.03:951][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.29-03.16.03:951][  0]LogMemory: Process Physical Memory: 55.59 MB used, 55.59 MB peak
+[2015.11.29-03.16.03:951][  0]LogMemory: Process Virtual Memory: 55.65 MB used, 55.65 MB peak
+[2015.11.29-03.16.03:951][  0]LogMemory: Physical Memory: 4108.54 MB used, 8143.19 MB total
+[2015.11.29-03.16.03:951][  0]LogMemory: Virtual Memory: 378.63 MB used, 134217728.00 MB total
+[2015.11.29-03.16.03:981][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.11.29-03.16.04:529][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R9 200 Series (Feature Level 11_0)
+[2015.11.29-03.16.04:529][  0]LogD3D11RHI: Adapter has 3050MB of dedicated video memory, 0MB of dedicated system memory, and 4071MB of shared system memory, 1 output[s]
+[2015.11.29-03.16.04:531][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.11.29-03.16.04:531][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4071MB of shared system memory, 0 output[s]
+[2015.11.29-03.16.04:532][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.29-03.16.04:538][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.29-03.16.04:538][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.29-03.16.04:548][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.11.29-03.16.04:566][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Intermediate/Shaders/WorkingDirectory/6508/).
+[2015.11.29-03.16.04:566][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SILVER~1/AppData/Local/Temp/UnrealShaderWorkingDir/29D9251E405812039BBE78A4AE93D9BD/'.
+[2015.11.29-03.16.04:566][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.29-03.16.05:573][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.29-03.16.05:578][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.29-03.16.05:585][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.29-03.16.05:591][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.29-03.16.05:596][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.29-03.16.05:602][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.29-03.16.05:604][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.29-03.16.05:607][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.29-03.16.05:610][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.29-03.16.05:612][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.29-03.16.05:616][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.29-03.16.05:623][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2015.11.29-03.16.05:623][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.29-03.16.05:624][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.29-03.16.05:641][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.29-03.16.05:644][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.29-03.16.05:647][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.29-03.16.05:649][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.29-03.16.05:649][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.29-03.16.05:733][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.29-03.16.05:801][  0]LogDerivedDataCache: Loaded boot cache 0.07s 41MB C:/Users/Silverthief/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.11.29-03.16.05:801][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Silverthief/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2015.11.29-03.16.05:801][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.29-03.16.05:801][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.29-03.16.05:801][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.29-03.16.05:801][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.29-03.16.05:859][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.29-03.16.05:871][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Silverthief/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.29-03.16.06:079][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.29-03.16.06:082][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.29-03.16.06:208][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.29-03.16.06:208][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.29-03.16.06:459][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.29-03.16.07:240][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.29-03.16.07:336][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
+[2015.11.29-03.16.07:525][  0]SourceControl: Info Source control is disabled
+[2015.11.29-03.16.07:541][  0]SourceControl: Info Source control is disabled
+[2015.11.29-03.16.07:556][  0]SourceControl: Info Source control is disabled
+[2015.11.29-03.16.07:568][  0]SourceControl: Info Source control is disabled
+[2015.11.29-03.16.07:813][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2015.11.29-03.16.07:813][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2015.11.29-03.16.07:871][  0]LogEngine: Initializing Engine...
+[2015.11.29-03.16.07:873][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.11.29-03.16.07:877][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2015.11.29-03.16.08:013][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.29-03.16.08:019][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.29-03.16.08:034][  0]LogInit: FAudioDevice initialized.
+[2015.11.29-03.16.08:075][  0]LogDerivedDataCache: Saved boot cache 0.04s 41MB C:/Users/Silverthief/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.11.29-03.16.08:084][  0]LogInit: Texture streaming: Enabled
+[2015.11.29-03.16.08:092][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.29-03.16.08:092][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2015.11.29-03.16.08:092][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 3b56146c4f16688711048f8c98eae620|0760f4adf80a4e7598843affeb74fa45|10e36adf-6d97-40fd-8c8f-d378175c6b7b
+[2015.11.29-03.16.08:092][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.29-03.16.08:137][  0]LogInit: Transaction tracking system initialized
+[2015.11.29-03.16.08:175][  0]BlueprintLog: New page: Editor Load
+[2015.11.29-03.16.08:895][  0]LocalizationService: Info Localization service is disabled
+[2015.11.29-03.16.09:263][  0]LogConsoleResponse:Display: 
+[2015.11.29-03.16.09:518][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.29-03.16.09:732][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Silverthief/Documents/Unreal Projects/Loot3/Content/' took 0.02s
+[2015.11.29-03.16.09:732][  0]SourceControl: Info Source control is disabled
+[2015.11.29-03.16.09:741][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/4.10/FeaturePacks/StarterContent.upack)
+[2015.11.29-03.16.09:749][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2015.11.29-03.16.09:768][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2015.11.29-03.16.09:777][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2015.11.29-03.16.09:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2015.11.29-03.16.09:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2015.11.29-03.16.09:861][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2015.11.29-03.16.09:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2015.11.29-03.16.09:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2015.11.29-03.16.09:946][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2015.11.29-03.16.09:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2015.11.29-03.16.09:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2015.11.29-03.16.10:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2015.11.29-03.16.10:048][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Audio/Collapse01.uasset"
+[2015.11.29-03.16.10:072][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Audio/Collapse02.uasset"
+[2015.11.29-03.16.10:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2015.11.29-03.16.10:114][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Audio/Explosion01.uasset"
+[2015.11.29-03.16.10:141][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Audio/Explosion02.uasset"
+[2015.11.29-03.16.10:158][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2015.11.29-03.16.10:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Audio/Fire01.uasset"
+[2015.11.29-03.16.10:189][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2015.11.29-03.16.10:217][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2015.11.29-03.16.10:231][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2015.11.29-03.16.10:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Audio/Light01.uasset"
+[2015.11.29-03.16.10:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2015.11.29-03.16.10:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Audio/Light02.uasset"
+[2015.11.29-03.16.10:307][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2015.11.29-03.16.10:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Audio/Smoke01.uasset"
+[2015.11.29-03.16.10:359][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2015.11.29-03.16.10:369][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2015.11.29-03.16.10:410][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2015.11.29-03.16.10:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2015.11.29-03.16.10:514][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2015.11.29-03.16.10:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2015.11.29-03.16.10:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2015.11.29-03.16.10:631][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Audio/Steam01.uasset"
+[2015.11.29-03.16.10:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2015.11.29-03.16.10:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2015.11.29-03.16.10:691][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2015.11.29-03.16.10:726][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2015.11.29-03.16.10:777][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2015.11.29-03.16.10:798][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2015.11.29-03.16.10:809][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2015.11.29-03.16.10:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2015.11.29-03.16.10:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2015.11.29-03.16.10:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2015.11.29-03.16.10:897][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2015.11.29-03.16.10:930][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2015.11.29-03.16.10:968][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2015.11.29-03.16.10:994][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2015.11.29-03.16.11:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2015.11.29-03.16.11:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2015.11.29-03.16.11:074][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2015.11.29-03.16.15:666][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2015.11.29-03.16.15:698][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2015.11.29-03.16.15:733][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Maps/Minimal_Default.umap"
+[2015.11.29-03.16.15:861][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Maps/StarterMap.umap"
+[2015.11.29-03.16.15:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2015.11.29-03.16.15:909][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2015.11.29-03.16.15:936][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2015.11.29-03.16.15:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2015.11.29-03.16.15:971][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2015.11.29-03.16.15:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2015.11.29-03.16.16:018][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2015.11.29-03.16.16:041][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2015.11.29-03.16.16:062][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2015.11.29-03.16.16:069][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2015.11.29-03.16.16:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2015.11.29-03.16.16:129][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2015.11.29-03.16.16:157][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2015.11.29-03.16.16:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2015.11.29-03.16.16:173][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2015.11.29-03.16.16:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2015.11.29-03.16.16:250][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2015.11.29-03.16.16:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Glass.uasset"
+[2015.11.29-03.16.16:282][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2015.11.29-03.16.16:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2015.11.29-03.16.16:310][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2015.11.29-03.16.16:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2015.11.29-03.16.16:353][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2015.11.29-03.16.16:420][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2015.11.29-03.16.16:564][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2015.11.29-03.16.16:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2015.11.29-03.16.17:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2015.11.29-03.16.17:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2015.11.29-03.16.17:358][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2015.11.29-03.16.17:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2015.11.29-03.16.17:765][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2015.11.29-03.16.17:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2015.11.29-03.16.17:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2015.11.29-03.16.18:052][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2015.11.29-03.16.18:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2015.11.29-03.16.18:642][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2015.11.29-03.16.18:772][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2015.11.29-03.16.18:934][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2015.11.29-03.16.19:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2015.11.29-03.16.19:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2015.11.29-03.16.19:472][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2015.11.29-03.16.19:626][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2015.11.29-03.16.20:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2015.11.29-03.16.20:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2015.11.29-03.16.20:285][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Particles/P_Explosion.uasset"
+[2015.11.29-03.16.20:419][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Particles/P_Fire.uasset"
+[2015.11.29-03.16.20:436][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Particles/P_Smoke.uasset"
+[2015.11.29-03.16.20:489][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Particles/P_Sparks.uasset"
+[2015.11.29-03.16.20:520][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2015.11.29-03.16.20:534][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2015.11.29-03.16.20:558][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2015.11.29-03.16.20:574][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2015.11.29-03.16.20:595][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2015.11.29-03.16.20:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2015.11.29-03.16.20:637][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2015.11.29-03.16.20:645][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2015.11.29-03.16.20:662][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2015.11.29-03.16.20:670][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2015.11.29-03.16.20:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2015.11.29-03.16.20:720][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Props/MaterialSphere.uasset"
+[2015.11.29-03.16.20:750][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Props/SM_Bush.uasset"
+[2015.11.29-03.16.20:763][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Props/SM_Chair.uasset"
+[2015.11.29-03.16.20:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2015.11.29-03.16.20:805][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Props/SM_Couch.uasset"
+[2015.11.29-03.16.20:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Props/SM_Door.uasset"
+[2015.11.29-03.16.20:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2015.11.29-03.16.20:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2015.11.29-03.16.20:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2015.11.29-03.16.21:021][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2015.11.29-03.16.21:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2015.11.29-03.16.21:091][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2015.11.29-03.16.21:120][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2015.11.29-03.16.21:137][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Props/SM_Rock.uasset"
+[2015.11.29-03.16.21:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Props/SM_Shelf.uasset"
+[2015.11.29-03.16.21:169][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Props/SM_Stairs.uasset"
+[2015.11.29-03.16.21:196][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Props/SM_Statue.uasset"
+[2015.11.29-03.16.21:224][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Props/SM_TableRound.uasset"
+[2015.11.29-03.16.21:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2015.11.29-03.16.21:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2015.11.29-03.16.21:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2015.11.29-03.16.21:336][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2015.11.29-03.16.21:351][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2015.11.29-03.16.21:361][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2015.11.29-03.16.21:368][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2015.11.29-03.16.21:376][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2015.11.29-03.16.21:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2015.11.29-03.16.21:419][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2015.11.29-03.16.21:432][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2015.11.29-03.16.21:452][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2015.11.29-03.16.21:485][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2015.11.29-03.16.21:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2015.11.29-03.16.21:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2015.11.29-03.16.21:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2015.11.29-03.16.21:540][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2015.11.29-03.16.21:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2015.11.29-03.16.21:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2015.11.29-03.16.21:623][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2015.11.29-03.16.21:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2015.11.29-03.16.21:657][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2015.11.29-03.16.21:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2015.11.29-03.16.21:719][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2015.11.29-03.16.21:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2015.11.29-03.16.21:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2015.11.29-03.16.21:775][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2015.11.29-03.16.21:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2015.11.29-03.16.21:825][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2015.11.29-03.16.21:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2015.11.29-03.16.21:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2015.11.29-03.16.21:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2015.11.29-03.16.21:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2015.11.29-03.16.22:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2015.11.29-03.16.22:145][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2015.11.29-03.16.22:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2015.11.29-03.16.22:300][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2015.11.29-03.16.22:497][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2015.11.29-03.16.22:669][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2015.11.29-03.16.22:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2015.11.29-03.16.22:909][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2015.11.29-03.16.22:997][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2015.11.29-03.16.23:072][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2015.11.29-03.16.23:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2015.11.29-03.16.23:212][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2015.11.29-03.16.23:249][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2015.11.29-03.16.23:269][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2015.11.29-03.16.23:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2015.11.29-03.16.23:330][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2015.11.29-03.16.23:362][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2015.11.29-03.16.23:393][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2015.11.29-03.16.23:432][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2015.11.29-03.16.23:471][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2015.11.29-03.16.23:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2015.11.29-03.16.23:607][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2015.11.29-03.16.23:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2015.11.29-03.16.23:816][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2015.11.29-03.16.23:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2015.11.29-03.16.24:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2015.11.29-03.16.24:108][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2015.11.29-03.16.24:187][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2015.11.29-03.16.24:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2015.11.29-03.16.24:359][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2015.11.29-03.16.24:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2015.11.29-03.16.24:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2015.11.29-03.16.24:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2015.11.29-03.16.24:656][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2015.11.29-03.16.24:710][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2015.11.29-03.16.24:771][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2015.11.29-03.16.24:789][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2015.11.29-03.16.24:838][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2015.11.29-03.16.24:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Door_M.uasset"
+[2015.11.29-03.16.24:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Door_N.uasset"
+[2015.11.29-03.16.24:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2015.11.29-03.16.24:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2015.11.29-03.16.25:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2015.11.29-03.16.25:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2015.11.29-03.16.25:393][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2015.11.29-03.16.25:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2015.11.29-03.16.25:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2015.11.29-03.16.26:141][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2015.11.29-03.16.26:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2015.11.29-03.16.26:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2015.11.29-03.16.26:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2015.11.29-03.16.26:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2015.11.29-03.16.26:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2015.11.29-03.16.26:792][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2015.11.29-03.16.27:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2015.11.29-03.16.27:169][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2015.11.29-03.16.27:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2015.11.29-03.16.27:368][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2015.11.29-03.16.27:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2015.11.29-03.16.27:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2015.11.29-03.16.27:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2015.11.29-03.16.27:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2015.11.29-03.16.27:746][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2015.11.29-03.16.27:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2015.11.29-03.16.28:000][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2015.11.29-03.16.28:201][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2015.11.29-03.16.28:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2015.11.29-03.16.28:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2015.11.29-03.16.28:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2015.11.29-03.16.28:595][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2015.11.29-03.16.28:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2015.11.29-03.16.28:828][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2015.11.29-03.16.28:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2015.11.29-03.16.29:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2015.11.29-03.16.29:138][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2015.11.29-03.16.29:259][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2015.11.29-03.16.29:360][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2015.11.29-03.16.29:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2015.11.29-03.16.29:596][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2015.11.29-03.16.29:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2015.11.29-03.16.29:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2015.11.29-03.16.29:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2015.11.29-03.16.29:971][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2015.11.29-03.16.29:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2015.11.29-03.16.30:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2015.11.29-03.16.30:060][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2015.11.29-03.16.30:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2015.11.29-03.16.30:126][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2015.11.29-03.16.30:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2015.11.29-03.16.30:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2015.11.29-03.16.30:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2015.11.29-03.16.30:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Water_M.uasset"
+[2015.11.29-03.16.30:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Water_N.uasset"
+[2015.11.29-03.16.30:361][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2015.11.29-03.16.30:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2015.11.29-03.16.30:443][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2015.11.29-03.16.30:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2015.11.29-03.16.30:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2015.11.29-03.16.30:706][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2015.11.29-03.16.30:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2015.11.29-03.16.31:024][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2015.11.29-03.16.31:105][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2015.11.29-03.16.31:295][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:2).
+[2015.11.29-03.16.31:656][  0]LogSavePackage: Save=23.954285ms
+[2015.11.29-03.16.31:656][  0]LogSavePackage: Moving '../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Saved/Floor_400x400369727894A5DAC940BF40D820909BF23.tmp' to '../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2015.11.29-03.16.31:663][  0]LogSavePackage: Total save time: 47.775447ms
+[2015.11.29-03.16.31:663][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2015.11.29-03.16.31:663][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2015.11.29-03.16.31:665][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.29-03.16.31:666][  0]LightingResults: New page: Lighting Build
+[2015.11.29-03.16.31:672][  0]MapCheck: New page: Map Check
+[2015.11.29-03.16.31:672][  0]LightingResults: New page: Lighting Build
+[2015.11.29-03.16.31:705][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000093E3EBEAC0
+[2015.11.29-03.16.31:946][  0]LogLinker:Warning: Asset '../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.29-03.16.33:673][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.29-03.16.33:711][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.29-03.16.33:712][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.29-03.16.33:806][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 93.613ms to complete.
+[2015.11.29-03.16.33:806][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.141
+[2015.11.29-03.16.34:040][  0]LogCollectionManager: Loaded 0 collections in 0.002336 seconds
+[2015.11.29-03.16.34:096][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Silverthief/Documents/Unreal Projects/Loot3/Saved/Collections/' took 0.01s
+[2015.11.29-03.16.34:096][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Silverthief/Documents/Unreal Projects/Loot3/Content/Developers/Silverthief/Collections/' took 0.02s
+[2015.11.29-03.16.34:096][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Silverthief/Documents/Unreal Projects/Loot3/Content/Collections/' took 0.01s
+[2015.11.29-03.16.34:096][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.11.29-03.16.34:113][  0]LogContentBrowser: Native class hierarchy populated in 0.0174 seconds. Added 1893 classes and 338 folders.
+[2015.11.29-03.16.34:124][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2015.11.29-03.16.35:584][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.11.29-03.16.35:593][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.11.29-03.16.35:667][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.29-03.16.35:673][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.29-03.16.35:702][  0]LogLoad: Full Startup: 32.23 seconds (BP compile: 0.20 seconds)
+[2015.11.29-03.16.36:049][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.11.29-03.16.36:335][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.11.29-03.16.36:547][  0]LogRenderer: Reallocating scene render targets to support 1012x756 (Frame:3).
+[2015.11.29-03.16.38:197][  4]LogAssetRegistry: Asset discovery search completed in 30.8712 seconds
+[2015.11.29-03.16.38:197][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.11.29-03.16.38:197][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
+[2015.11.29-03.19.16:267][293]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.29-03.19.17:065][293]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 107 classes and 0 folders.
+[2015.11.29-03.19.45:517][530]BlueprintLog: New page: Compile Plant_Blueprint
+[2015.11.29-03.19.45:646][530]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.11.29-03.19.45:646][530]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.29-03.19.45:731][530]BlueprintEditorCompileResults: Info [0222.26] Compile of Plant_Blueprint successful! [in 213 ms]
+[2015.11.29-03.19.47:766][637]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.19.47:766][637]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.29-03.19.47:767][637]PIE: New page: PIE session: FirstPersonExampleMap (Nov 28, 2015, 5:19:47 PM)
+[2015.11.29-03.19.47:767][637]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.29-03.19.47:802][637]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035164s)
+[2015.11.29-03.19.47:805][637]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.29-03.19.47:805][637]LogPlayLevel: PIE: World Init took: (0.003412s)
+[2015.11.29-03.19.47:806][637]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.038937s)
+[2015.11.29-03.19.47:868][637]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000093BF57A5C0
+[2015.11.29-03.19.47:881][637]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.29-03.19.47:898][637]LogInit: FAudioDevice initialized.
+[2015.11.29-03.19.48:021][637]LogLinker:Warning: Asset '../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.29-03.19.48:067][637]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.29-03.19.48:074][637]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.28-22.19.48
+[2015.11.29-03.19.48:074][637]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.29-03.19.48:074][637]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.29-03.19.48:075][637]LogWorld: Bringing up level for play took: 0.006760
+[2015.11.29-03.19.48:076][637]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.218
+[2015.11.29-03.19.48:077][637]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.20.00:669][720]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.20.00:764][720]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.20.00:924][721]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000940D1887C0
+[2015.11.29-03.20.03:592][917]LogEditorViewport: Clicking on Actor (LMB): LootBlock_Blueprint_C (LootBlock_Blueprint)
+[2015.11.29-03.20.12:604][589]LogEditorViewport: Clicking on Actor (LMB): LootBall_Blueprint_C (LootBall_Blueprint)
+[2015.11.29-03.20.14:554][738]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube20)
+[2015.11.29-03.20.14:867][756]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube18)
+[2015.11.29-03.20.17:376][933]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall)
+[2015.11.29-03.20.19:228][ 52]LogEditorViewport: Clicking on Actor (LMB): Plant_Blueprint_C (Plant_Blueprint)
+[2015.11.29-03.20.33:541][695]BlueprintLog: New page: Compile Plant_Blueprint
+[2015.11.29-03.20.33:666][695]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.29-03.20.33:667][695]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.11.29-03.20.33:736][695]BlueprintEditorCompileResults: Info [0270.26] Compile of Plant_Blueprint successful! [in 195 ms]
+[2015.11.29-03.20.38:628][953]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.20.38:628][953]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.29-03.20.38:628][953]PIE: New page: PIE session: FirstPersonExampleMap (Nov 28, 2015, 5:20:38 PM)
+[2015.11.29-03.20.38:628][953]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.29-03.20.38:661][953]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032768s)
+[2015.11.29-03.20.38:662][953]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.29-03.20.38:663][953]LogPlayLevel: PIE: World Init took: (0.001216s)
+[2015.11.29-03.20.38:663][953]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.034355s)
+[2015.11.29-03.20.38:733][953]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000940CDF3920
+[2015.11.29-03.20.38:743][953]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.29-03.20.38:772][953]LogInit: FAudioDevice initialized.
+[2015.11.29-03.20.38:823][953]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.29-03.20.38:830][953]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.28-22.20.38
+[2015.11.29-03.20.38:830][953]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.29-03.20.38:830][953]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.29-03.20.38:831][953]LogWorld: Bringing up level for play took: 0.006753
+[2015.11.29-03.20.38:833][953]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.975
+[2015.11.29-03.20.38:834][953]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.20.53:800][233]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.20.53:860][233]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.20.53:983][234]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000940C0F28E0
+[2015.11.29-03.21.13:561][208]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.21.13:561][208]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.29-03.21.13:562][208]PIE: New page: PIE session: FirstPersonExampleMap (Nov 28, 2015, 5:21:13 PM)
+[2015.11.29-03.21.13:562][208]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.29-03.21.13:595][208]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032813s)
+[2015.11.29-03.21.13:596][208]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.29-03.21.13:596][208]LogPlayLevel: PIE: World Init took: (0.001348s)
+[2015.11.29-03.21.13:596][208]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.034474s)
+[2015.11.29-03.21.13:681][208]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.29-03.21.13:692][208]LogInit: FAudioDevice initialized.
+[2015.11.29-03.21.13:745][208]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.29-03.21.13:751][208]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.28-22.21.13
+[2015.11.29-03.21.13:751][208]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.29-03.21.13:751][208]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.29-03.21.13:751][208]LogWorld: Bringing up level for play took: 0.006164
+[2015.11.29-03.21.13:753][208]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.105
+[2015.11.29-03.21.13:754][208]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.22.06:215][327]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.22.06:299][327]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.22.06:561][328]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000093D4B0CAE0
+[2015.11.29-03.22.10:576][537]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.22.10:576][537]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.11.29-03.22.10:582][537]LogPlayLevel: [PlayLevel] Compiling Plant_Blueprint before play...
+[2015.11.29-03.22.10:678][537]LogPlayLevel: PlayLevel: Blueprint regeneration took 102 ms (1 blueprints)
+[2015.11.29-03.22.10:737][537]PIE: New page: PIE session: FirstPersonExampleMap (Nov 28, 2015, 5:22:10 PM)
+[2015.11.29-03.22.10:737][537]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.29-03.22.10:786][537]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049494s)
+[2015.11.29-03.22.10:787][537]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.29-03.22.10:787][537]LogPlayLevel: PIE: World Init took: (0.001087s)
+[2015.11.29-03.22.10:788][537]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.051118s)
+[2015.11.29-03.22.10:855][537]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.29-03.22.10:870][537]LogInit: FAudioDevice initialized.
+[2015.11.29-03.22.10:927][537]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.29-03.22.10:934][537]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.28-22.22.10
+[2015.11.29-03.22.10:934][537]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.29-03.22.10:934][537]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.29-03.22.10:935][537]LogWorld: Bringing up level for play took: 0.008005
+[2015.11.29-03.22.10:937][537]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.079
+[2015.11.29-03.22.10:938][537]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.22.18:361][975]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.22.18:425][975]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.22.18:645][976]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000940C2FD800
+[2015.11.29-03.23.03:418][169]BlueprintLog: New page: Compile Plant_Blueprint
+[2015.11.29-03.23.03:512][169]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.29-03.23.03:513][169]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.11.29-03.23.03:574][169]BlueprintEditorCompileResults: Info [0420.10] Compile of Plant_Blueprint successful! [in 155 ms]
+[2015.11.29-03.23.05:968][288]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.23.05:968][288]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.29-03.23.05:968][288]PIE: New page: PIE session: FirstPersonExampleMap (Nov 28, 2015, 5:23:05 PM)
+[2015.11.29-03.23.05:968][288]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.29-03.23.06:001][288]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033294s)
+[2015.11.29-03.23.06:003][288]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.29-03.23.06:003][288]LogPlayLevel: PIE: World Init took: (0.001713s)
+[2015.11.29-03.23.06:003][288]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.035332s)
+[2015.11.29-03.23.06:071][288]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.29-03.23.06:096][288]LogInit: FAudioDevice initialized.
+[2015.11.29-03.23.06:148][288]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.29-03.23.06:153][288]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.28-22.23.06
+[2015.11.29-03.23.06:154][288]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.29-03.23.06:154][288]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.29-03.23.06:155][288]LogWorld: Bringing up level for play took: 0.007020
+[2015.11.29-03.23.06:157][288]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.299
+[2015.11.29-03.23.06:157][288]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.23.27:288][472]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.23.27:360][472]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.23.27:596][473]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000938475BEC0
+[2015.11.29-03.23.43:092][934]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.23.43:093][934]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.11.29-03.23.43:112][934]LogPlayLevel: [PlayLevel] Compiling Plant_Blueprint before play...
+[2015.11.29-03.23.43:207][934]LogPlayLevel: PlayLevel: Blueprint regeneration took 114 ms (1 blueprints)
+[2015.11.29-03.23.43:292][934]PIE: New page: PIE session: FirstPersonExampleMap (Nov 28, 2015, 5:23:43 PM)
+[2015.11.29-03.23.43:293][934]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.29-03.23.43:326][934]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033019s)
+[2015.11.29-03.23.43:327][934]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.29-03.23.43:328][934]LogPlayLevel: PIE: World Init took: (0.002380s)
+[2015.11.29-03.23.43:328][934]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.035947s)
+[2015.11.29-03.23.43:399][934]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.29-03.23.43:414][934]LogInit: FAudioDevice initialized.
+[2015.11.29-03.23.43:465][934]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.29-03.23.43:475][934]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.28-22.23.43
+[2015.11.29-03.23.43:475][934]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.29-03.23.43:476][934]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.29-03.23.43:477][934]LogWorld: Bringing up level for play took: 0.010608
+[2015.11.29-03.23.43:479][934]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.379
+[2015.11.29-03.23.43:479][934]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.23.48:936][273]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.23.49:000][273]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.23.49:211][274]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000940C1C4540
+[2015.11.29-03.23.49:979][312]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.23.49:979][312]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.29-03.23.49:979][312]PIE: New page: PIE session: FirstPersonExampleMap (Nov 28, 2015, 5:23:49 PM)
+[2015.11.29-03.23.49:979][312]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.29-03.23.50:026][312]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046521s)
+[2015.11.29-03.23.50:027][312]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.29-03.23.50:027][312]LogPlayLevel: PIE: World Init took: (0.001578s)
+[2015.11.29-03.23.50:028][312]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.048543s)
+[2015.11.29-03.23.50:108][312]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.29-03.23.50:117][312]LogInit: FAudioDevice initialized.
+[2015.11.29-03.23.50:166][312]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.29-03.23.50:173][312]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.28-22.23.50
+[2015.11.29-03.23.50:173][312]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.29-03.23.50:173][312]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.29-03.23.50:173][312]LogWorld: Bringing up level for play took: 0.006522
+[2015.11.29-03.23.50:176][312]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.318
+[2015.11.29-03.23.50:177][312]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.24.37:134][391]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.24.37:186][391]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.24.37:370][392]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000940D6345E0
+[2015.11.29-03.27.52:078][828]BlueprintLog: New page: Compile Plant_Blueprint
+[2015.11.29-03.27.52:272][828]BlueprintEditorCompileResults: Info [0708.80] Compile of Plant_Blueprint successful! [in 193 ms]
+[2015.11.29-03.29.28:720][418]BlueprintLog: New page: Compile Plant_Blueprint
+[2015.11.29-03.29.28:911][418]BlueprintEditorCompileResults: Info [0805.44] Compile of Plant_Blueprint successful! [in 191 ms]
+[2015.11.29-03.29.31:811][575]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.29.31:811][575]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.29-03.29.31:812][575]PIE: New page: PIE session: FirstPersonExampleMap (Nov 28, 2015, 5:29:31 PM)
+[2015.11.29-03.29.31:812][575]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.29-03.29.31:847][575]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034709s)
+[2015.11.29-03.29.31:849][575]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.29-03.29.31:849][575]LogPlayLevel: PIE: World Init took: (0.001986s)
+[2015.11.29-03.29.31:850][575]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.037189s)
+[2015.11.29-03.29.31:947][575]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.29-03.29.31:971][575]LogInit: FAudioDevice initialized.
+[2015.11.29-03.29.32:022][575]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.29-03.29.32:030][575]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.28-22.29.32
+[2015.11.29-03.29.32:030][575]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.29-03.29.32:030][575]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.29-03.29.32:031][575]LogWorld: Bringing up level for play took: 0.008210
+[2015.11.29-03.29.32:033][575]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.174
+[2015.11.29-03.29.32:033][575]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.30.11:696][843]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.30.11:778][843]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.30.11:989][844]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000093D36427A0
+[2015.11.29-03.30.43:595][961]LogSavePackage: Save=5780.029785ms
+[2015.11.29-03.30.43:595][961]LogSavePackage: Moving '../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Saved/FirstPersonExampleMap_Auto112BC839B47C18554CCD15891E6C63918.tmp' to '../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2015.11.29-03.30.43:597][961]LogSavePackage: Total save time: 5825.010408ms
+[2015.11.29-03.30.43:597][961]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap
+[2015.11.29-03.30.43:602][961]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 5.929
+[2015.11.29-03.30.43:602][961]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 5.929
+[2015.11.29-03.30.43:625][961]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Plant_Blueprint] ([1] browsable assets)...
+[2015.11.29-03.30.43:656][961]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Plant_Blueprint.Plant_Blueprint]
+[2015.11.29-03.30.43:656][961]OBJ SavePackage: Finished generating thumbnails for package [/Game/Plant_Blueprint]
+[2015.11.29-03.30.43:764][961]LogSavePackage: Save=100.229698ms
+[2015.11.29-03.30.43:764][961]LogSavePackage: Moving '../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Saved/Plant_Blueprint_Auto1042D3F0B43E5425C023391A0880D249C.tmp' to '../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Saved/Autosaves/Game/Plant_Blueprint_Auto1.uasset'
+[2015.11.29-03.30.43:765][961]LogSavePackage: Total save time: 108.014733ms
+[2015.11.29-03.30.43:765][961]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Saved/Autosaves/Game/Plant_Blueprint_Auto1.uasset
+[2015.11.29-03.30.43:765][961]LogFileHelpers: Auto-saving content packages took 0.160
+[2015.11.29-03.31.40:498][ 48]LogActorFactory: Actor Factory created Cube
+[2015.11.29-03.31.41:296][100]LogActorFactory: Actor Factory created Cube
+[2015.11.29-03.31.58:198][233]LogContentBrowser: Native class hierarchy updated for 'DestructibleMeshEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2015.11.29-03.31.58:225][233]LogDestructible:Warning: MainMesh Tris: 48
+[2015.11.29-03.31.58:311][233]LogApexDestructibleAssetImport:Warning: Using default materials for material slot
+[2015.11.29-03.31.58:315][233]LogApexDestructibleAssetImport:Warning: Bones digested - 2  Depth of hierarchy - 2
+[2015.11.29-03.31.58:361][233]LogSkeletalMesh: Chunk 0: 54 rigid vertices, 0 soft vertices, 1 active bones
+[2015.11.29-03.31.58:374][233]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 48 triangles
+[2015.11.29-03.32.00:476][338]LogDestructible:Warning: MainMesh Tris: 48
+[2015.11.29-03.32.00:580][338]LogApexDestructibleAssetImport:Warning: Using default materials for material slot
+[2015.11.29-03.32.00:580][338]LogApexDestructibleAssetImport:Warning: Bones digested - 27  Depth of hierarchy - 2
+[2015.11.29-03.32.00:602][338]LogSkeletalMesh: Chunk 0: 446 rigid vertices, 0 soft vertices, 21 active bones
+[2015.11.29-03.32.00:602][338]LogSkeletalMesh: Chunk 1: 992 rigid vertices, 0 soft vertices, 25 active bones
+[2015.11.29-03.32.00:606][338]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 348 triangles
+[2015.11.29-03.32.00:606][338]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 580 triangles
+[2015.11.29-03.32.02:675][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/BasicShapes/Cube_DM" FILE="../../../Engine/Content/BasicShapes/Cube_DM.uasset" SILENT=true
+[2015.11.29-03.32.02:727][463]LogSavePackage: Save=49.961540ms
+[2015.11.29-03.32.02:727][463]LogSavePackage: Moving '../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Saved/Cube_DMC9C77DAB4FB1B622094DE1B8409F915E.tmp' to '../../../Engine/Content/BasicShapes/Cube_DM.uasset'
+[2015.11.29-03.32.02:729][463]LogSavePackage: Total save time: 52.615162ms
+[2015.11.29-03.32.02:729][463]LogSavePackage:Display: Finished SavePackage ../../../Engine/Content/BasicShapes/Cube_DM.uasset
+[2015.11.29-03.32.05:629][675]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.32.05:629][675]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.29-03.32.05:629][675]PIE: New page: PIE session: FirstPersonExampleMap (Nov 28, 2015, 5:32:05 PM)
+[2015.11.29-03.32.05:629][675]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.29-03.32.05:663][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033658s)
+[2015.11.29-03.32.05:665][675]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.29-03.32.05:665][675]LogPlayLevel: PIE: World Init took: (0.001994s)
+[2015.11.29-03.32.05:666][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.036564s)
+[2015.11.29-03.32.05:727][675]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009399BB2E80
+[2015.11.29-03.32.05:741][675]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.29-03.32.05:771][675]LogInit: FAudioDevice initialized.
+[2015.11.29-03.32.05:814][675]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.29-03.32.05:821][675]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.28-22.32.05
+[2015.11.29-03.32.05:821][675]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.29-03.32.05:821][675]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.29-03.32.05:822][675]LogWorld: Bringing up level for play took: 0.006537
+[2015.11.29-03.32.05:823][675]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.036
+[2015.11.29-03.32.05:823][675]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.32.11:545][196]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.32.11:605][196]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.32.11:667][196]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000940B63AC00
+[2015.11.29-03.32.20:708][777]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube20)
+[2015.11.29-03.32.21:350][823]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.11.29-03.32.21:740][846]Cmd: DELETE
+[2015.11.29-03.32.21:740][846]Cmd: ACTOR DELETE
+[2015.11.29-03.32.21:824][846]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.11.29-03.32.21:890][846]LogEditorActor: Deleted 1 Actors (0.067 secs)
+[2015.11.29-03.32.22:801][929]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (Cube_DM)
+[2015.11.29-03.32.39:872][ 85]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.29-03.32.46:059][381]LogEditorViewport: Clicking on Actor (LMB): Cube_DM_Blueprint_C (Cube_DM_Blueprint)
+[2015.11.29-03.33.13:157][702]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2015.11.29-03.33.16:540][922]LogEditorViewport: Clicking on Actor (LMB): Cube_DM_Blueprint_C (Cube_DM_Blueprint)
+[2015.11.29-03.34.37:790][ 97]LogEditorViewport: Clicking on Actor (context menu): Cube_DM_Blueprint_C (Cube_DM_Blueprint)
+[2015.11.29-03.34.43:774][463]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube21)
+[2015.11.29-03.34.44:543][516]LogEditorViewport: Clicking on Actor (LMB): Cube_DM_Blueprint_C (Cube_DM_Blueprint)
+[2015.11.29-03.34.44:647][517]LogEditorViewport: Clicking on Component (LMB): DestructibleComponent (DestructibleComponent0)
+[2015.11.29-03.38.11:867][186]BlueprintLog: New page: Compile Cube_DM_Blueprint
+[2015.11.29-03.38.11:879][186]LogBlueprint:Error: [compiler Cube_DM_Blueprint] Error The current value of the ' Hit Info ' pin is invalid: 'Hit Info' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2015.11.29-03.38.12:130][186]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000940979CCC0
+[2015.11.29-03.38.12:140][186]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000093D3B913A0
+[2015.11.29-03.38.12:142][186]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000093D36428E0
+[2015.11.29-03.38.12:163][186]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000940B53E2A0
+[2015.11.29-03.38.12:163][186]LogBlueprint:Warning: [compiler Cube_DM_Blueprint] Warning [1328.69] Compile of Cube_DM_Blueprint failed. 1 Fatal Issue(s) 0 Warning(s) [in 295 ms]
+[2015.11.29-03.38.12:163][186]BlueprintEditorCompileResults:Error: Error The current value of the ' Hit Info ' pin is invalid: 'Hit Info' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2015.11.29-03.38.12:163][186]BlueprintEditorCompileResults:Warning: Warning [1328.69] Compile of Cube_DM_Blueprint failed. 1 Fatal Issue(s) 0 Warning(s) [in 295 ms]
+[2015.11.29-03.38.12:175][186]LogSCSEditor:Warning: Calling UpdateTree() from Tick() more frequently than expected due to invalid tree node state. This might be a performance issue.
+[2015.11.29-03.38.30:994][911]BlueprintLog: New page: Compile Cube_DM_Blueprint
+[2015.11.29-03.38.31:160][911]BlueprintEditorCompileResults: Info [1347.69] Compile of Cube_DM_Blueprint successful! [in 166 ms]
+[2015.11.29-03.38.33:694][ 52]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.38.33:694][ 52]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.29-03.38.33:694][ 52]PIE: New page: PIE session: FirstPersonExampleMap (Nov 28, 2015, 5:38:33 PM)
+[2015.11.29-03.38.33:694][ 52]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.29-03.38.33:728][ 52]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033408s)
+[2015.11.29-03.38.33:731][ 52]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.29-03.38.33:731][ 52]LogPlayLevel: PIE: World Init took: (0.003076s)
+[2015.11.29-03.38.33:731][ 52]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.036825s)
+[2015.11.29-03.38.33:802][ 52]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.29-03.38.33:819][ 52]LogInit: FAudioDevice initialized.
+[2015.11.29-03.38.33:866][ 52]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.29-03.38.33:973][ 52]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.28-22.38.33
+[2015.11.29-03.38.33:973][ 52]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.29-03.38.33:974][ 52]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.29-03.38.33:974][ 52]LogWorld: Bringing up level for play took: 0.107840
+[2015.11.29-03.38.33:977][ 52]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.119
+[2015.11.29-03.38.33:977][ 52]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.38.42:896][879]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.38.42:953][879]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.38.43:011][879]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000940C7085E0
+[2015.11.29-03.38.44:775][ 19]LogEditorViewport: Clicking on Actor (LMB): Cube_DM_Blueprint_C (Cube_DM_Blueprint)
+[2015.11.29-03.38.44:928][ 30]LogEditorViewport: Clicking on Component (LMB): DestructibleComponent (DestructibleComponent0)
+[2015.11.29-03.38.45:196][ 48]LogEditorViewport: Clicking on Component (LMB): DestructibleComponent (DestructibleComponent0)
+[2015.11.29-03.39.37:356][523]BlueprintLog: New page: Compile Cube_DM_Blueprint
+[2015.11.29-03.39.37:539][523]BlueprintEditorCompileResults: Info [1414.06] Compile of Cube_DM_Blueprint successful! [in 182 ms]
+[2015.11.29-03.39.37:552][523]LogSCSEditor:Warning: Calling UpdateTree() from Tick() more frequently than expected due to invalid tree node state. This might be a performance issue.
+[2015.11.29-03.39.39:516][636]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.39.39:516][636]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.29-03.39.39:516][636]PIE: New page: PIE session: FirstPersonExampleMap (Nov 28, 2015, 5:39:39 PM)
+[2015.11.29-03.39.39:516][636]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.29-03.39.39:567][636]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050666s)
+[2015.11.29-03.39.39:570][636]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.29-03.39.39:571][636]LogPlayLevel: PIE: World Init took: (0.003972s)
+[2015.11.29-03.39.39:571][636]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.055057s)
+[2015.11.29-03.39.39:647][636]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.29-03.39.39:665][636]LogInit: FAudioDevice initialized.
+[2015.11.29-03.39.39:701][636]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.29-03.39.39:711][636]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.28-22.39.39
+[2015.11.29-03.39.39:712][636]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.29-03.39.39:712][636]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.29-03.39.39:712][636]LogWorld: Bringing up level for play took: 0.010143
+[2015.11.29-03.39.39:714][636]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.144
+[2015.11.29-03.39.39:714][636]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.39.44:918][ 69]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.39.44:980][ 69]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.39.45:050][ 69]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000093D14A4EA0
+[2015.11.29-03.40.45:616][230]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.40.45:616][230]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.29-03.40.45:616][230]PIE: New page: PIE session: FirstPersonExampleMap (Nov 28, 2015, 5:40:45 PM)
+[2015.11.29-03.40.45:616][230]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.29-03.40.45:646][230]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030149s)
+[2015.11.29-03.40.45:647][230]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.29-03.40.45:648][230]LogPlayLevel: PIE: World Init took: (0.001528s)
+[2015.11.29-03.40.45:648][230]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.032036s)
+[2015.11.29-03.40.45:722][230]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.29-03.40.45:745][230]LogInit: FAudioDevice initialized.
+[2015.11.29-03.40.45:791][230]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.29-03.40.45:798][230]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.28-22.40.45
+[2015.11.29-03.40.45:798][230]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.29-03.40.45:798][230]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.29-03.40.45:798][230]LogWorld: Bringing up level for play took: 0.006730
+[2015.11.29-03.40.45:800][230]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.059
+[2015.11.29-03.40.45:800][230]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.40.52:994][877]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.40.53:070][877]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.40.53:135][877]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000940A164360
+[2015.11.29-03.41.33:919][459]LogSavePackage: Save=6376.452148ms
+[2015.11.29-03.41.33:919][459]LogSavePackage: Moving '../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Saved/FirstPersonExampleMap_Auto2E12DCF1D43B883C789DF93B9883E0B4F.tmp' to '../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2015.11.29-03.41.33:922][459]LogSavePackage: Total save time: 6627.413824ms
+[2015.11.29-03.41.33:922][459]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap
+[2015.11.29-03.41.33:927][459]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 6.735
+[2015.11.29-03.41.33:927][459]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 6.735
+[2015.11.29-03.41.33:936][459]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Cube_DM_Blueprint] ([1] browsable assets)...
+[2015.11.29-03.41.33:936][459]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cube_DM_Blueprint]
+[2015.11.29-03.41.34:001][459]LogSavePackage: Save=62.698051ms
+[2015.11.29-03.41.34:001][459]LogSavePackage: Moving '../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Saved/Cube_DM_Blueprint_Auto20C8FEE4942B89AC0CB705EA1C630250D.tmp' to '../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Saved/Autosaves/Game/Cube_DM_Blueprint_Auto2.uasset'
+[2015.11.29-03.41.34:029][459]LogSavePackage: Total save time: 90.268519ms
+[2015.11.29-03.41.34:029][459]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Saved/Autosaves/Game/Cube_DM_Blueprint_Auto2.uasset
+[2015.11.29-03.41.34:029][459]LogFileHelpers: Auto-saving content packages took 0.099
+[2015.11.29-03.42.28:722][809]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2015.11.29-03.42.37:071][237]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.42.37:071][237]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.29-03.42.37:071][237]PIE: New page: PIE session: FirstPersonExampleMap (Nov 28, 2015, 5:42:37 PM)
+[2015.11.29-03.42.37:072][237]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.29-03.42.37:107][237]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035133s)
+[2015.11.29-03.42.37:108][237]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.29-03.42.37:109][237]LogPlayLevel: PIE: World Init took: (0.002136s)
+[2015.11.29-03.42.37:109][237]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.037949s)
+[2015.11.29-03.42.37:185][237]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.29-03.42.37:200][237]LogInit: FAudioDevice initialized.
+[2015.11.29-03.42.37:249][237]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.29-03.42.37:258][237]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.28-22.42.37
+[2015.11.29-03.42.37:258][237]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.29-03.42.37:259][237]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.29-03.42.37:260][237]LogWorld: Bringing up level for play took: 0.010215
+[2015.11.29-03.42.37:261][237]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.596
+[2015.11.29-03.42.37:261][237]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.43.19:245][207]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.43.19:309][207]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.43.19:374][207]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000940A165A80
+[2015.11.29-03.44.21:513][532]BlueprintLog: New page: Compile Cube_DM_Blueprint
+[2015.11.29-03.44.21:670][532]BlueprintEditorCompileResults: Info [1698.20] Compile of Cube_DM_Blueprint successful! [in 157 ms]
+[2015.11.29-03.44.23:068][603]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.44.23:068][603]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.29-03.44.23:069][603]PIE: New page: PIE session: FirstPersonExampleMap (Nov 28, 2015, 5:44:23 PM)
+[2015.11.29-03.44.23:069][603]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.29-03.44.23:120][603]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050955s)
+[2015.11.29-03.44.23:122][603]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.29-03.44.23:122][603]LogPlayLevel: PIE: World Init took: (0.002674s)
+[2015.11.29-03.44.23:123][603]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.054069s)
+[2015.11.29-03.44.23:203][603]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.29-03.44.23:223][603]LogInit: FAudioDevice initialized.
+[2015.11.29-03.44.23:281][603]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.29-03.44.23:290][603]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.28-22.44.23
+[2015.11.29-03.44.23:290][603]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.29-03.44.23:290][603]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.29-03.44.23:291][603]LogWorld: Bringing up level for play took: 0.009008
+[2015.11.29-03.44.23:293][603]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.565
+[2015.11.29-03.44.23:293][603]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.44.38:199][433]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.44.38:266][433]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.29-03.44.38:338][433]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000094516E68E0
+[2015.11.29-03.44.40:483][536]LogEditorViewport: Clicking on Actor (LMB): Cube_DM_Blueprint_C (Cube_DM_Blueprint)
+[2015.11.29-03.44.43:612][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube_DM_Blueprint" FILE="../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/Cube_DM_Blueprint.uasset" SILENT=true
+[2015.11.29-03.44.43:671][615]LogSavePackage: Save=56.884953ms
+[2015.11.29-03.44.43:671][615]LogSavePackage: Moving '../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Saved/Cube_DM_BlueprintEA62496B4D6F201E29976E9B591579BA.tmp' to '../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/Cube_DM_Blueprint.uasset'
+[2015.11.29-03.44.43:679][615]LogSavePackage: Total save time: 65.348458ms
+[2015.11.29-03.44.43:679][615]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/Cube_DM_Blueprint.uasset
+[2015.11.29-03.44.49:819][615]LogSavePackage: Save=5888.819824ms
+[2015.11.29-03.44.49:819][615]LogSavePackage: Moving '../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Saved/FirstPersonExampleMap072694B4498BD9B67C495F9EDE7ADA40.tmp' to '../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.11.29-03.44.49:825][615]LogSavePackage: Total save time: 5903.228495ms
+[2015.11.29-03.44.49:825][615]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2015.11.29-03.44.49:899][615]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 6.211
+[2015.11.29-03.44.49:912][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Plant_Blueprint" FILE="../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/Plant_Blueprint.uasset" SILENT=true
+[2015.11.29-03.44.50:008][615]LogSavePackage: Save=88.938194ms
+[2015.11.29-03.44.50:008][615]LogSavePackage: Moving '../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Saved/Plant_BlueprintEC805862471579729F8D1393F8A7B667.tmp' to '../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/Plant_Blueprint.uasset'
+[2015.11.29-03.44.50:015][615]LogSavePackage: Total save time: 101.689339ms
+[2015.11.29-03.44.50:015][615]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Silverthief/Documents/Unreal Projects/Loot3/Content/Plant_Blueprint.uasset
+[2015.11.29-03.44.50:243][615]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.29-03.44.50:717][616]Cmd: QUIT_EDITOR
+[2015.11.29-03.44.51:315][616]LogExit: Preparing to exit.
+[2015.11.29-03.44.52:612][616]LogExit: Editor shut down
+[2015.11.29-03.44.52:625][616]LogExit: Transaction tracking system shut down
+[2015.11.29-03.44.52:627][616]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000093C6B651C0
+[2015.11.29-03.44.52:640][616]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000093F44C6A20
+[2015.11.29-03.44.52:641][616]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009399B709A0
+[2015.11.29-03.44.52:645][616]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000093F44C4720
+[2015.11.29-03.44.52:646][616]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000093F469B880
+[2015.11.29-03.44.52:646][616]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000093F8F83740
+[2015.11.29-03.44.52:657][616]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000093E530CA40
+[2015.11.29-03.44.52:661][616]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000093D39FF560
+[2015.11.29-03.44.52:683][616]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000940F7C53A0
+[2015.11.29-03.44.52:684][616]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000093A053BEC0
+[2015.11.29-03.44.52:691][616]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000093EEFD6160
+[2015.11.29-03.44.53:570][616]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009399B73100
+[2015.11.29-03.44.53:570][616]LogExit: Object subsystem successfully closed.
+[2015.11.29-03.44.53:596][616]LogD3D11RHI: Shutdown
+[2015.11.29-03.44.53:596][616]LogD3D11RHI: CleanupD3DDevice
+[2015.11.29-03.44.53:743][616]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.29-03.44.53:776][616]LogModuleManager: Shutting down and abandoning module DestructibleMeshEditor (201)
+[2015.11.29-03.44.53:776][616]LogModuleManager: Shutting down and abandoning module BlueprintGraph (200)
+[2015.11.29-03.44.53:776][616]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2015.11.29-03.44.53:776][616]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
+[2015.11.29-03.44.53:776][616]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
+[2015.11.29-03.44.53:776][616]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
+[2015.11.29-03.44.53:776][616]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
+[2015.11.29-03.44.53:780][616]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
+[2015.11.29-03.44.53:780][616]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
+[2015.11.29-03.44.53:781][616]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
+[2015.11.29-03.44.53:781][616]LogModuleManager: Shutting down and abandoning module CookingStats (191)
+[2015.11.29-03.44.53:781][616]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2015.11.29-03.44.53:781][616]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2015.11.29-03.44.53:781][616]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2015.11.29-03.44.53:781][616]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2015.11.29-03.44.53:781][616]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2015.11.29-03.44.53:781][616]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2015.11.29-03.44.53:781][616]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2015.11.29-03.44.53:781][616]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2015.11.29-03.44.53:781][616]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2015.11.29-03.44.53:781][616]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2015.11.29-03.44.53:781][616]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2015.11.29-03.44.53:781][616]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2015.11.29-03.44.53:781][616]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2015.11.29-03.44.53:781][616]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2015.11.29-03.44.53:781][616]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2015.11.29-03.44.53:781][616]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2015.11.29-03.44.53:781][616]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2015.11.29-03.44.53:781][616]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2015.11.29-03.44.54:228][616]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2015.11.29-03.44.54:228][616]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2015.11.29-03.44.54:228][616]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2015.11.29-03.44.54:228][616]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2015.11.29-03.44.54:228][616]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2015.11.29-03.44.54:228][616]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2015.11.29-03.44.54:228][616]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2015.11.29-03.44.54:228][616]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2015.11.29-03.44.54:228][616]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2015.11.29-03.44.54:228][616]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2015.11.29-03.44.54:228][616]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2015.11.29-03.44.54:228][616]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2015.11.29-03.44.54:228][616]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2015.11.29-03.44.54:228][616]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2015.11.29-03.44.54:228][616]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2015.11.29-03.44.54:228][616]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2015.11.29-03.44.54:228][616]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2015.11.29-03.44.54:228][616]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2015.11.29-03.44.54:229][616]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2015.11.29-03.44.54:229][616]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2015.11.29-03.44.54:229][616]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2015.11.29-03.44.54:229][616]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2015.11.29-03.44.54:229][616]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2015.11.29-03.44.54:229][616]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2015.11.29-03.44.54:229][616]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2015.11.29-03.44.54:229][616]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2015.11.29-03.44.54:229][616]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2015.11.29-03.44.54:229][616]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2015.11.29-03.44.54:229][616]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2015.11.29-03.44.54:229][616]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2015.11.29-03.44.54:229][616]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2015.11.29-03.44.54:229][616]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2015.11.29-03.44.54:230][616]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2015.11.29-03.44.54:230][616]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2015.11.29-03.44.54:230][616]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2015.11.29-03.44.54:230][616]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2015.11.29-03.44.54:230][616]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2015.11.29-03.44.54:230][616]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2015.11.29-03.44.54:230][616]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2015.11.29-03.44.54:230][616]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2015.11.29-03.44.54:230][616]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2015.11.29-03.44.54:230][616]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2015.11.29-03.44.54:230][616]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2015.11.29-03.44.54:230][616]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2015.11.29-03.44.54:230][616]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2015.11.29-03.44.54:230][616]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2015.11.29-03.44.54:230][616]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2015.11.29-03.44.54:230][616]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2015.11.29-03.44.54:230][616]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2015.11.29-03.44.54:230][616]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2015.11.29-03.44.54:445][616]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2015.11.29-03.44.54:445][616]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.11.29-03.44.54:445][616]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.11.29-03.44.54:445][616]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.11.29-03.44.54:445][616]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.11.29-03.44.54:445][616]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2015.11.29-03.44.54:445][616]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2015.11.29-03.44.54:445][616]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.11.29-03.44.54:473][616]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.11.29-03.44.54:473][616]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.11.29-03.44.54:473][616]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.11.29-03.44.54:473][616]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.11.29-03.44.54:473][616]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.11.29-03.44.54:473][616]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.11.29-03.44.54:473][616]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.11.29-03.44.54:473][616]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.11.29-03.44.54:473][616]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.11.29-03.44.54:473][616]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.11.29-03.44.54:473][616]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.11.29-03.44.54:473][616]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.11.29-03.44.54:473][616]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.11.29-03.44.54:473][616]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.11.29-03.44.54:473][616]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.11.29-03.44.54:473][616]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.11.29-03.44.54:473][616]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.11.29-03.44.54:473][616]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.11.29-03.44.54:473][616]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.11.29-03.44.54:473][616]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.11.29-03.44.54:473][616]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.11.29-03.44.54:473][616]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.11.29-03.44.54:473][616]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.11.29-03.44.54:473][616]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.11.29-03.44.54:475][616]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2015.11.29-03.44.54:478][616]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2015.11.29-03.44.54:634][616]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2015.11.29-03.44.54:635][616]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2015.11.29-03.44.54:635][616]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2015.11.29-03.44.54:736][616]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2015.11.29-03.44.54:736][616]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2015.11.29-03.44.54:736][616]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2015.11.29-03.44.54:742][616]LogModuleManager: Shutting down and abandoning module Media (82)
+[2015.11.29-03.44.54:742][616]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2015.11.29-03.44.54:743][616]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2015.11.29-03.44.54:743][616]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2015.11.29-03.44.54:743][616]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2015.11.29-03.44.54:743][616]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2015.11.29-03.44.54:743][616]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2015.11.29-03.44.54:743][616]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2015.11.29-03.44.54:743][616]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2015.11.29-03.44.54:743][616]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2015.11.29-03.44.54:743][616]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2015.11.29-03.44.54:743][616]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2015.11.29-03.44.54:743][616]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2015.11.29-03.44.54:743][616]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2015.11.29-03.44.54:743][616]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2015.11.29-03.44.54:743][616]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2015.11.29-03.44.54:745][616]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2015.11.29-03.44.54:745][616]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2015.11.29-03.44.54:745][616]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2015.11.29-03.44.54:745][616]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2015.11.29-03.44.54:745][616]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2015.11.29-03.44.54:745][616]LogModuleManager: Shutting down and abandoning module Core (60)
+[2015.11.29-03.44.54:745][616]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2015.11.29-03.44.54:745][616]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2015.11.29-03.44.54:745][616]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2015.11.29-03.44.54:745][616]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2015.11.29-03.44.54:816][616]LogDerivedDataCache: Shutdown
+[2015.11.29-03.44.54:816][616]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2015.11.29-03.44.54:816][616]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2015.11.29-03.44.54:816][616]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2015.11.29-03.44.54:816][616]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2015.11.29-03.44.54:816][616]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2015.11.29-03.44.54:816][616]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2015.11.29-03.44.54:816][616]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2015.11.29-03.44.54:816][616]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2015.11.29-03.44.54:816][616]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2015.11.29-03.44.54:816][616]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2015.11.29-03.44.54:816][616]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2015.11.29-03.44.54:816][616]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2015.11.29-03.44.54:816][616]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2015.11.29-03.44.54:816][616]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2015.11.29-03.44.54:816][616]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2015.11.29-03.44.54:816][616]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2015.11.29-03.44.54:816][616]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2015.11.29-03.44.54:816][616]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2015.11.29-03.44.54:816][616]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2015.11.29-03.44.54:816][616]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2015.11.29-03.44.54:816][616]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2015.11.29-03.44.54:816][616]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2015.11.29-03.44.54:816][616]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2015.11.29-03.44.54:816][616]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2015.11.29-03.44.54:816][616]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2015.11.29-03.44.54:816][616]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2015.11.29-03.44.54:816][616]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2015.11.29-03.44.54:816][616]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2015.11.29-03.44.54:816][616]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2015.11.29-03.44.54:816][616]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2015.11.29-03.44.54:816][616]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2015.11.29-03.44.54:816][616]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2015.11.29-03.44.54:817][616]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2015.11.29-03.44.54:817][616]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2015.11.29-03.44.54:817][616]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2015.11.29-03.44.54:817][616]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2015.11.29-03.44.54:817][616]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2015.11.29-03.44.56:826][616]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2015.11.29-03.44.56:826][616]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2015.11.29-03.44.56:826][616]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.11.29-03.44.56:826][616]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.11.29-03.44.56:826][616]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.11.29-03.44.56:826][616]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.11.29-03.44.56:826][616]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.11.29-03.44.56:850][616]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.11.29-03.44.56:850][616]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.11.29-03.44.56:850][616]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.11.29-03.44.56:850][616]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.29-03.44.56:850][616]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.29-03.44.56:850][616]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.29-03.44.56:850][616]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.29-03.44.56:850][616]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.29-03.44.56:850][616]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.29-03.44.56:850][616]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.29-03.44.56:852][616]LogExit: Exiting.
+[2015.11.29-03.44.56:892][616]Log file closed, 11/28/15 22:44:56
